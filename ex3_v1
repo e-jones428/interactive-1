@@ -7,15 +7,19 @@
   <link rel="stylesheet" href="style.css"/>
   <style>
 
+
   .A1 {
 font-family: comic sans-serif;
-float: left;
+float: right;
+
   }
 
 .a1 {
+  margin: 50px, 35px, 25px, 50px;
   color: red;
   font-family:sans-serif arial;
   font-size: 90px
+
 }
 
   </style>
