@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+  <link href="https://fonts.googleapis.com/css?family=Nova+Mono|Six+Caps" rel="stylesheet">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>ex4_v1</title>
+
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+
+
+.title{
+font-family: 'Six Caps', sans-serif;
+font-size: 150px;
+padding-left: 175px;
+position: fixed;
+opacity: .3;
+
+}
+
+.part1 {
+float:left;
+font-family: 'Nova Mono', monospace;
+color:#ff7400;
+margin-left: 20px;
+margin-right: -150px;
+margin-top: 90px;
+margin-bottom: 90px;
+padding-left: 40px;
+
+}
+
+.part2{
+transform: rotate(180deg);
+font-family: 'Nova Mono', monospace;
+color:#ff7400;
+margin-top: 100px;
+
+}
+
+
+  </style>
+
+  <script src="script.js"></script>
+  <script></script>
+</head>
+
+<body>
+
+<div class="title"><p>Amendment V</p></div>
+
+<div class="part1"
+<p>No</p>
+<p>person</p>
+<p>shall be</p>
+<p>held to answer</p>
+<p>for a capital, or</p>
+<p>otherwise infamous crime,</p>
+<p>unless on a presentment or</p>
+<p>indictment of a grand jury, except</p>
+<p>in cases arising in the land or naval</p>
+<p>forces, or in the militia, when in actual</p>
+<p>service in time of war or public danger; nor</p>
+<p>shall any person be subject for the same offense</p>
+<p>to be twice put in jeopardy of life or limb; nor shall</p>
+<p>be compelled in any criminal case to be a witness against himself,</p>
+<p>nor be deprived of life, liberty, or property, without due process of law;</p>
+<p>nor shall private property be taken for public use, without just compensation.</p>
+</div>
+<div class="part2">
+<p>In</p>
+<p>all</p>
+<p>criminal</p>
+<p>prosecutions,</p>
+<p>the accused shall</p>
+<p>enjoy the right to a</p>
+<p>speedy and public trial,</p>
+<p>by an impartial jury of the</p>
+<p>state and district wherein the</p>
+<p>crime shall have been committed, which</p>
+<p>district shall have been previously ascertained</p>
+<p>by law, and to be informed of the nature and cause</p>
+<p>of the accusation; to be confronted with the witnesses</p>
+<p>against him; to have compulsory process for obtaining witnesses</p>
+<p>in his favor, and to have the assistance of counsel for his defense.</p>
+</div>
+</body>
+<html>
