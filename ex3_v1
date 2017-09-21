@@ -9,6 +9,7 @@
 
 
   .A1 {
+    display: block; color: green;
 font-family: comic sans-serif;
 float: right;
 
@@ -17,7 +18,7 @@ float: right;
 .line1 {
   margin: 50px, 35px, 25px, 50px;
   color: red;
-  font-family:sans-serif arial;
+  font-family:cursive;
   font-size: 90px
 
 }
