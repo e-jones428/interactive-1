@@ -13,8 +13,8 @@
 
 .title{
 font-family: 'Six Caps', sans-serif;
-font-size: 150px;
-padding-left: 175px;
+font-size: 200px;
+padding-left: 185px;
 position: fixed;
 opacity: .3;
 
@@ -29,7 +29,7 @@ margin-right: -150px;
 margin-top: 90px;
 margin-bottom: 90px;
 padding-left: 40px;
-
+position: relative;
 }
 
 .part2{
@@ -37,6 +37,7 @@ transform: rotate(180deg);
 font-family: 'Nova Mono', monospace;
 color:#ff7400;
 margin-top: 100px;
+position:sticky;
 
 }
 
