@@ -11,10 +11,12 @@
   <style>
 
 
+
 .title{
 font-family: 'Playfair Display', serif;
 font-size: 100px;
 padding-left: 100px;
+padding-top: 235px;
 position: fixed;
 opacity: .15;
 
@@ -23,24 +25,60 @@ opacity: .15;
 .part1 {
 float:left;
 font-family: 'Oxygen Mono', monospace;
+font-size: 20px;
 color:#ff7400;
 margin-left: 20px;
 margin-right: -150px;
 margin-top: 90px;
 margin-bottom: 90px;
 padding-left: 40px;
-position: relative;
+position: absolute;
+-webkit-animation: leftgate 3s; /* Safari 4.0 - 8.0 */
+animation: leftgate 3s;
+animation-fill-mode: forwards;
 }
 
 .part2{
 transform: rotate(180deg);
-font-family: 'Nova Mono', monospace;
+font-family: 'Oxygen Mono', monospace;
+font-size: 20px;
 color:#ff7400;
 margin-top: 100px;
-position:sticky;
-
+position: absolute;
+margin-left: 220px;
+-webkit-animation: rightgate 3s; /* Safari 4.0 - 8.0 */
+animation: rightgate 3s;
+animation-fill-mode: forwards;
 }
 
+
+@-webkit-keyframes rightgate {
+    from {margin-left: 220px;}
+    to {margin-left: 0px;}
+}
+
+/* Standard syntax */
+@keyframes rightgate {
+  from {margin-left: 220px;}
+  to {margin-left: 0px;}
+}
+
+
+@-webkit-keyframes left gate {
+    from {margin-left: -220px;}
+    to {margin-left: 0px;}
+}
+
+/* Standard syntax */
+@keyframes leftgate {
+  from {margin-left: -220px;}
+  to {margin-left: 0px;}
+}
+
+.wrapper {
+    width: 820px;
+    margin: auto;
+}
 
   </style>
 
@@ -50,6 +88,8 @@ position:sticky;
 
 <body>
 
+
+<div class="wrapper">
 <div class="title"><p>Amendment V</p></div>
 
 <div class="part1"
@@ -87,5 +127,7 @@ position:sticky;
 <p>against him; to have compulsory process for obtaining witnesses</p>
 <p>in his favor, and to have the assistance of counsel for his defense.</p>
 </div>
+</div>
+
 </body>
 <html>
