@@ -18,7 +18,9 @@ font-size: 100px;
 padding-left: 100px;
 padding-top: 235px;
 position: fixed;
-opacity: .15;
+-webkit-animation: title 3s; /* Safari 4.0 - 8.0 */
+animation: title 3s;
+animation-fill-mode: forwards;
 
 }
 
@@ -64,7 +66,7 @@ animation-fill-mode: forwards;
 }
 
 
-@-webkit-keyframes left gate {
+@-webkit-keyframes leftgate {
     from {margin-left: -220px;}
     to {margin-left: 0px;}
 }
@@ -75,9 +77,23 @@ animation-fill-mode: forwards;
   to {margin-left: 0px;}
 }
 
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes title {
+  from {opacity:0;}
+to{opacity:.5;
+}
+
+/* Standard syntax */
+@keyframes title {
+  from {opacity:0;}
+to {opacity:.5;
+}
+
 .wrapper {
+  important!
     width: 820px;
     margin: auto;
+
 }
 
   </style>
