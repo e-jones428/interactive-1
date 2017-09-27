@@ -2,7 +2,7 @@
 <html>
 <head>
 
-  <link href="https://fonts.googleapis.com/css?family=Nova+Mono|Six+Caps" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oxygen+Mono|Playfair+Display" rel="stylesheet">
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <title>ex4_v1</title>
@@ -12,17 +12,17 @@
 
 
 .title{
-font-family: 'Six Caps', sans-serif;
-font-size: 200px;
-padding-left: 185px;
+font-family: 'Playfair Display', serif;
+font-size: 100px;
+padding-left: 100px;
 position: fixed;
-opacity: .3;
+opacity: .15;
 
 }
 
 .part1 {
 float:left;
-font-family: 'Nova Mono', monospace;
+font-family: 'Oxygen Mono', monospace;
 color:#ff7400;
 margin-left: 20px;
 margin-right: -150px;
