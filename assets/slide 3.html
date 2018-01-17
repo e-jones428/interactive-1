@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+
+<style>
+
+@font-face {
+    font-family: FilaSophia;
+    src: url(fonts/filo.ttf);
+}
+
+body {
+  font-family:"FilaSophia";
+  position:relative;
+}
+
+img, p {
+  position:absolute;
+}
+
+.slideholder {
+  max-width:1200px;
+  height: 700px;;
+  margin:auto;
+  position:relative;
+  background-color:Black;
+}
+
+.f1_left{
+  height: 600px;
+  margin-top: 75px;
+  margin-left: 150px;
+  -webkit-animation: rise-up 1s ease forwards;
+      -ms-animation: rise-up 1s ease forwards;
+          animation: rise-up 1s ease forwards;
+
+          /*STARTING STATE*/
+	        transform:translate(0px,400px);
+          opacity:0;
+}
+
+.f1_right{
+  height: 600px;
+  margin-top: 75px;
+  margin-left: 800px;
+  height: 600px;
+  margin-top: 75px;
+  -webkit-animation: rise-up 1s ease forwards;
+      -ms-animation: rise-up 1s ease forwards;
+          animation: rise-up 1s ease forwards;
+
+          /*STARTING STATE*/
+	        transform:translate(0px,400px);
+          opacity:0;
+
+
+}
+
+.text-intro {
+  left:450px;
+  top:250px;
+  width:300px;
+  text-align:center;
+  font-size: 28px;
+  color: white;
+  -webkit-animation: magic 3s ease forwards;
+    animation-delay: 1s;
+          /*STARTING STATE*/
+          opacity:0;
+}
+
+/*ANIMATIONS*/
+
+@keyframes magic {
+  from {opacity:0;}
+  to {opacity:1;}
+  }
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes magic {
+  from {opacity:0;}
+  to {opacity:1;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes magic {
+  from {opacity:0;}
+  to {opacity:1;}
+}
+
+/*ANIMATIONS*/
+
+@keyframes rise-up {
+    from { 	transform:translate(0px,400px); opacity:0; }
+    to { 	transform:translate(0px,0px);opacity:1; }
+  }
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes rise-up {
+  from { 	transform:translate(0px,400px); opacity:0; }
+  to { 	transform:translate(0px,0px);opacity:1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes rise-up {
+  from { 	transform:translate(0px,400px); opacity:0; }
+  to { 	transform:translate(0px,0px);opacity:1; }
+}
+
+
+</style>
+
+  </head>
+  <body>
+<a href="slide4.html">
+
+<div class="slideholder">
+<img class="f1_left" src="flourish_1_left-10.png">
+<img class="f1_right" src="flourish_1_right-10.png">
+<p class="text-intro">attatch the button to any article of clothing to bring your pocket where ever you go</p>
+
+</div>
+
+</a>
+  </body>
+</html>

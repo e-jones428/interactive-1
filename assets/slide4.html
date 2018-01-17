@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+
+<style>
+
+@font-face {
+    font-family: FilaSophia;
+    src: url(fonts/filo.ttf);
+}
+
+body {
+  font-family:"FilaSophia";
+  position:relative;
+}
+
+img, p {
+  position:absolute;
+}
+
+.slideholder {
+  max-width:1200px;
+  height: 700px;
+  margin:auto;
+  position:relative;
+
+}
+
+.jacket{
+  max-width:1200px;
+  height: 700px;
+    margin:auto;
+}
+.pin{
+width: 295px;
+height: 300px;
+margin-left: 555px;
+margin-top: 70px;
+-webkit-animation: magic 3s ease forwards;
+        /*STARTING STATE*/
+        opacity:0;
+
+}
+
+/*ANIMATIONS*/
+
+@keyframes magic {
+  from {opacity:0;}
+  to {opacity:1;}
+  }
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes magic {
+  from {opacity:0;}
+  to {opacity:1;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes magic {
+  from {opacity:0;}
+  to {opacity:1;}
+}
+
+</style>
+
+  </head>
+  <body>
+<a href="slide5.html">
+
+<div class="slideholder">
+<img class="jacket" src="jacket.jpg">
+<img class="pin" src="mpp_pin.png">
+
+
+</div>
+
+</a>
+  </body>
+</html>

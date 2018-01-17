@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+
+<style>
+
+@font-face {
+    font-family: FilaSophia;
+    src: url(fonts/filo.ttf);
+}
+
+body {
+  font-family:"FilaSophia";
+  position:relative;
+}
+
+img, p {
+  position:absolute;
+}
+
+.slideholder {
+  max-width:1200px;
+  margin:auto;
+  position:relative;
+}
+
+.object-penguin {
+  left:100px;
+  top:100px;
+  -webkit-animation: rise-up 1s ease forwards;
+      -ms-animation: rise-up 1s ease forwards;
+          animation: rise-up 1s ease forwards;
+
+          /*STARTING STATE*/
+	        transform:translate(0px,400px);
+          opacity:0;
+}
+
+.object-speech {
+  left:550px;
+  top:100px;
+  visibility: hidden;
+}
+
+.text-intro {
+  left:540px;
+  top:160px;
+  width:300px;
+  text-align:center;
+  font-size: 24px;
+}
+
+.hold-bubble {
+  position:absolute;
+  -webkit-animation: move-bubble 1s ease forwards;
+      -ms-animation: move-bubble 1s ease forwards;
+          animation: move-bubble 1s ease forwards;
+          animation-delay: 1s;
+
+          /*STARTING STATE*/
+          transform:translate(400px,0px);
+          opacity:0;
+}
+
+/*ANIMATIONS*/
+
+@keyframes rise-up {
+    from { 	transform:translate(0px,400px); opacity:0; }
+    to { 	transform:translate(0px,0px);opacity:1; }
+  }
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes rise-up {
+  from { 	transform:translate(0px,400px); opacity:0; }
+  to { 	transform:translate(0px,0px);opacity:1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes rise-up {
+  from { 	transform:translate(0px,400px); opacity:0; }
+  to { 	transform:translate(0px,0px);opacity:1; }
+}
+
+
+/*Move Bubble*/
+
+@keyframes move-bubble {
+    from { 	transform:translate(100px,0px); opacity:0; }
+    to { 	transform:translate(0px,0px);opacity:1; }
+  }
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes move-bubble {
+    from { 	transform:translate(100px,0px); opacity:0; }
+  to { 	transform:translate(0px,0px);opacity:1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes move-bubble {
+    from { 	transform:translate(100px,0px); opacity:0; }
+  to { 	transform:translate(0px,0px);opacity:1; }
+}
+
+</style>
+
+  </head>
+  <body>
+<a href="slide 3.html">
+
+<div class="slideholder">
+<img class="object-penguin" src="images/penguin.png">
+<div class="hold-bubble">
+<img class="object-speech" src="images/speech.png">
+<p class="text-intro">Welcome to your Mary Poppins Pocket!</p>
+</div>
+</div>
+
+</a>
+  </body>
+</html>

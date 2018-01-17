@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+
+<style>
+
+@font-face {
+    font-family: FilaSophia;
+    src: url(fonts/filo.ttf);
+}
+
+body {
+  font-family:"FilaSophia";
+  position:relative;
+}
+
+img, p {
+  position:absolute;
+}
+
+.slideholder {
+  max-width:1200px;
+  height: 700px;
+  margin:auto;
+  position:relative;
+
+}
+
+.background{
+ width:1200px;
+  height: 700px;
+    margin:auto;
+}
+.ui{
+width:514px;
+height:650px;
+margin-left: 300px;
+margin-top: -45px;
+-webkit-animation: magic 3s ease forwards;
+  animation-delay: 1s;
+        /*STARTING STATE*/
+        opacity:0;
+}
+
+.hand{
+margin-left: 450px;
+margin-top: -284px;
+-webkit-animation: rise-up 1s ease forwards;
+    -ms-animation: rise-up 1s ease forwards;
+        animation: rise-up 1s ease forwards;
+        animation-delay: 1.5s;
+
+        /*STARTING STATE*/
+        transform:translate(0px,400px);
+
+}
+
+/*ANIMATIONS*/
+
+@keyframes magic {
+  from {opacity:0;}
+  to {opacity:1;}
+  }
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes magic {
+  from {opacity:0;}
+  to {opacity:1;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes magic {
+  from {opacity:0;}
+  to {opacity:1;}
+}
+
+@keyframes rise-up {
+    from { 	transform:translate(0px,400px); opacity:0; }
+    to { 	transform:translate(0px,0px);opacity:1; }
+  }
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes rise-up {
+  from { 	transform:translate(0px,400px); opacity:0; }
+  to { 	transform:translate(0px,0px);opacity:1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes rise-up {
+  from { 	transform:translate(0px,400px); opacity:0; }
+  to { 	transform:translate(0px,0px);opacity:1; }
+}
+</style>
+
+  </head>
+  <body>
+<a href="slide7.html">
+
+<div class="slideholder">
+<img class="background" src="background.png">
+<img class="ui" src="ui.png">
+<img class="hand" src="hand.png">
+
+
+</div>
+
+</a>
+  </body>
+</html>
